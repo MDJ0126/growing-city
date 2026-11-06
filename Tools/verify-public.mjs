@@ -7,3 +7,5 @@ for(const f of manifest.files){const b=await read(f.path);if(crypto.createHash('
 for(const code of ['en','ko','ja','zh-Hans','zh-Hant','de','fr','es','pt']){if((await read('Documentation/'+code+'/index.html')).length<100)throw Error('Missing documentation '+code);}
 for(const file of ['Documentation/images/gameplay.webp','Documentation/images/bombing.webp'])await read(file);
 console.log('PASS: '+manifest.files.length+' exact release hashes, 9 documentation pages and 2 screenshots.');
+// This standalone CI command has finished all reads; terminate retained HTTP handles.
+process.exit(0);
