@@ -31,3 +31,4 @@ jobs:
         id: deployment
         with:
           artifact_name: growing-city-${{ github.run_id }}-${{ github.run_attempt }}
+      - run: node Tools/verify-public.mjs
