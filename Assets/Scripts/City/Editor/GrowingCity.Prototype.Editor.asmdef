@@ -1,0 +1,1 @@
+{"name":"GrowingCity.Prototype.Editor","references":["GrowingCity.Runtime","GrowingCity.Core","UnityEngine.UI"],"includePlatforms":["Editor"],"autoReferenced":true}

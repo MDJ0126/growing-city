@@ -1,0 +1,1 @@
+{"name":"GrowingCity.Runtime","references":["GrowingCity.Core","Unity.InputSystem","UnityEngine.UI"],"autoReferenced":true}

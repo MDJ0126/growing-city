@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07607234b2db3ba0aa8f58477c11e8dd, type: 3}
+  m_Name: City Combination Rules
+  m_EditorClassIdentifier: 
+  recipes:
+  - first: 0
+    second: 1
+    result: 4
+    tier: 1
+    developmentValue: 40
+    maximumArea: 2
+  - first: 4
+    second: 4
+    result: 5
+    tier: 2
+    developmentValue: 100
+    maximumArea: 4
+  commercialLinkBonus: 12
+  districtFirst: 2
+  districtSecond: 3

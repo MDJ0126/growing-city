@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net9.0</TargetFramework><EnableDefaultCompileItems>false</EnableDefaultCompileItems><RestoreSources></RestoreSources><NuGetAudit>false</NuGetAudit><ImplicitUsings>disable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup><Compile Include="../../Assets/Scripts/City/Core/*.cs"/><Compile Include="LogicChecks.cs"/><Compile Include="../Combinations/CombinationChecks.cs"/><Compile Include="../Airstrike/AirstrikeChecks.cs"/><Compile Include="../Combat/CombatChecks.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../Upgrades/UpgradeChecks.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../DirectionLevels/DirectionLevelChecks.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../DragGuide/DragGuideChecks.cs"/></ItemGroup>
+  <ItemGroup><Compile Include="../Formation/FormationCombatChecks.cs"/></ItemGroup>
+<ItemGroup><Compile Include="../SpecialBuildings/SpecialChecks.cs"/></ItemGroup><ItemGroup><Compile Include="../VisualFeedback/MotionChecks.cs"/></ItemGroup><ItemGroup><Compile Include="../CityGrowth/GrowthChecks.cs"/></ItemGroup></Project>
